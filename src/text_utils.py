@@ -3,3 +3,6 @@ def word_count(text):
 
 def to_upper(text):
     return text.upper()
+
+def add_exclaim(text):
+    return f"{text}!!!"
