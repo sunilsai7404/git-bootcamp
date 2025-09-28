@@ -25,3 +25,9 @@ jobs:
             - name: run tests
               run: |
                 pytest || echo "No tests yet"
+            - name: Debug environment
+              run: |
+                python --version
+                pip list
+                env
+            
