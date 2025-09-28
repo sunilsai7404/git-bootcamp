@@ -1,0 +1,15 @@
+*   [33mdcc16a8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/exclaim[m[33m, [m[1;31morigin/feature/exclaim[m[33m)[m Resolved conflict in add_exclaim by combining approaches
+[31m|[m[32m\[m  
+[31m|[m * [33mbe2778c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32msimulate/teammate[m[33m, [m[1;32mmain[m[33m)[m Teammate: Modified add_exclaim(0 with triple exclamations
+* [32m|[m [33maaf6dff[m Day4: added add_exclaim() function
+[32m|[m[32m/[m  
+*   [33m18f7800[m[33m ([m[1;32mfeature/text_utils[m[33m)[m Merge pull request #2 from sunilsai7404/feature/text_utils
+[33m|[m[34m\[m  
+[33m|[m * [33me75397e[m[33m ([m[1;31morigin/feature/text_utils[m[33m)[m Day3: adding the text_utils of commit and add it in to branch
+[33m|[m[33m/[m  
+*   [33mf3a6786[m Merge pull request #1 from sunilsai7404/feature/calculator
+[35m|[m[36m\[m  
+[35m|[m * [33mc528258[m[33m ([m[1;31morigin/feature/calculator[m[33m, [m[1;32mfeature/calculator[m[33m)[m Day2: added calculator module with add and substract
+[35m|[m[35m/[m  
+* [33mb6b35c8[m Day1: Setup project structure with Readme and folders
+* [33ma09c515[m Initial commit
