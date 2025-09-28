@@ -25,9 +25,15 @@ jobs:
             - name: run tests
               run: |
                 pytest || echo "No tests yet"
+
             - name: Debug environment
               run: |
                 python --version
                 pip list
                 env
-            
+            - name: Upload test results
+              if: always()
+              uses: actions/upload-artifact@v4
+              with:
+                name: pytest-report
+                path: tests/reports/
