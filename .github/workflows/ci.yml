@@ -27,7 +27,8 @@ jobs:
               run: echo "Secret key is ${{ secrets.MY_SECRET_KEY }}"
               
             - name: Run Python script with secret
-              run: python -c "import calculator; print(calculator.get_secret_value())"
+              run: 
+                python -c "import calculator; print(calculator.get_secret_value())"
               env:
                 MY_SECRET_KEY: ${{ secrets.MY_SECRET_KEY }}
 
